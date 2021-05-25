@@ -2,8 +2,8 @@
 Library    SeleniumLibrary
 Suite Setup        Open Browser    about:blank    chrome
 Suite Teardown     Close All Browsers
-Resource    ..//keywords/features/login_feature.robot
-Resource    ..//keywords/pages/login_page.robot
+Resource    ${CURDIR}//..//keywords/features/login_feature.robot
+Resource    ${CURDIR}//..//keywords/pages/login_page.robot
 
 *** Test Cases ***
 TC001- Verify that when login with correct username and password , system can login success
